@@ -1,8 +1,11 @@
 {
-  "name": "Easy_E",
+  "name": "docker-ception",
   "version": "0.0.1",
-  "description": "A NodeJS webserver to run inside a docker container",
+  "description": "NodeJS webserver in docker",
   "main": "index.js",
-  "author": "mike",
-  "license": "MIT"
+  "author": "mike.michel@mmbash.de",
+  "license": "MIT",
+  "dependencies": {
+    "express": "*"
+  }
 }
